@@ -11,10 +11,10 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 # config vars
-API_ID = int(os.getenv("API_ID"))  # Pastikan variabel lingkungan disetel
-API_HASH = os.getenv("API_HASH")    # Pastikan variabel lingkungan disetel
-BOT_TOKEN = os.getenv("BOT_TOKEN")   # Pastikan variabel lingkungan disetel
-OWNER = os.getenv("OWNER")           # Pastikan variabel lingkungan disetel
+API_ID = int(os.getenv("API_ID, 20981861"))  # Pastikan variabel lingkungan disetel
+API_HASH = os.getenv("7f63fa7339bee2f21988871df768b555")    # Pastikan variabel lingkungan disetel
+BOT_TOKEN = os.getenv("7815597466:AAEZQnI1vtQTMS2x8bpOqsUp1eCD16JrGN0")   # Pastikan variabel lingkungan disetel
+OWNER = os.getenv("6967953022")           # Pastikan variabel lingkungan disetel
 
 # pyrogram client
 app = Client(
